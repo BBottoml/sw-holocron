@@ -21,3 +21,8 @@ This will concurrently start the client and server
 
 This website is currently live and in production at [SWHolocron.com](https://swholocron.com). 
 It was deployed using Heroku 
+
+## Remarks
+For deployment/production purposes, client and server exist within one unified directory (see above). 
+All React code can be found within the client directory and everything outside has to do
+with the backend 
